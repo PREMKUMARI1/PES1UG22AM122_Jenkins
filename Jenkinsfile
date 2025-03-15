@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh './Prem kumari'  // Run the compiled app
+                sh './app'  // Run the compiled app
             }
         }
         stage('Deploy') {
